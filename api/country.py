@@ -23,4 +23,5 @@ class handler(BaseHTTPRequestHandler):
       message = "Enter a country!"
 
     self.wfile.write(message.encode())
+    
     return
